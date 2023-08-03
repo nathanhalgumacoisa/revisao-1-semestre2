@@ -1,12 +1,16 @@
+/*font import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
 * {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: ´poppins´, sans serif;
 
 }
 body{
     background-color: #18181b;
 }
+/*add image to the middle and adjust*/
 main{
     display: flex;
     justify-content: center;
@@ -16,4 +20,18 @@ main{
 }
 img{
     width: 31rem;
+}
+ /*adjusting form*/
+#form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #262626;
+    border-radius: 8px;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
 }
