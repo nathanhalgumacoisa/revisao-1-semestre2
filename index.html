@@ -34,17 +34,17 @@
                     <label for="">Altura em metros</label>
                     <div class="input-field">
                         <i class="fa-solid fa-ruler icon"></i>
-                        <input type="number" id="weight" name="weight" required>
+                        <input type="number" id="height" name="weight" required>
                         <span class="unit">M</span>
                 </div>
                 </div>
                     <!--button form-->
-                <button id="calculate">calculate</button>
+                <button onclick="calculateIMC()" id="calculate">calculate</button>
             </div>
             <!--infomation-->
             <div id="infos" class="hidden">
                 <div id="result">
-                    <div id="IMC">
+                    <div id="imc">
                         <span id="value"></span>
                         <span id="status">Seu imc</span>
                     </div>
